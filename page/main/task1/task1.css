@@ -1,0 +1,32 @@
+body {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  color: #333;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  font-weight: bold;
+}
+
+select {
+  margin-bottom: 10px;
+}
+
+.btn {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
